@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-compliance-shield"
@@ -9,7 +9,7 @@ description = "Drop-in Django library for global privacy compliance: DPDP, GDPR,
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Yogesh Chauhan", email = "yogesh@pysquad.com" }
+    { name = "Yogesh Chauhan", email = "info.yogesh2848@gmail.com" }
 ]
 keywords = [
     "django", "privacy", "compliance", "GDPR", "DPDP", "CCPA", "FCRA",
