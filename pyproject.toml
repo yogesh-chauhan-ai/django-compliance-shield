@@ -47,10 +47,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yogesh-chauhan/django-compliance-shield"
-Documentation = "https://github.com/yogesh-chauhan/django-compliance-shield#readme"
-Repository = "https://github.com/yogesh-chauhan/django-compliance-shield"
-"Bug Tracker" = "https://github.com/yogesh-chauhan/django-compliance-shield/issues"
+Homepage = "https://github.com/yogesh-chauhan-ai/django-compliance-shield"
+Documentation = "https://github.com/yogesh-chauhan-ai/django-compliance-shield#readme"
+Repository = "https://github.com/yogesh-chauhan-ai/django-compliance-shield"
+"Bug Tracker" = "https://github.com/yogesh-chauhan-ai/django-compliance-shield/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

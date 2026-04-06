@@ -258,9 +258,9 @@ See [docs/field-types.md](docs/field-types.md) for full reference.
 
 **Yogesh Chauhan** — AI and Django engineer, Ahmedabad, India.
 
-[GitHub](https://github.com/yogesh-chauhan) |
-[LinkedIn](https://linkedin.com/in/yogesh-chauhan-ai) |
-[Portfolio](https://yogesh-chauhan-ai.github.io)
+[GitHub](https://github.com/yogesh-chauhan-ai) |
+[LinkedIn](https://linkedin.com/in/yogesh-python-ai) |
+[Portfolio](https://yogesh-python-ai.github.io)
 
 ---
 
