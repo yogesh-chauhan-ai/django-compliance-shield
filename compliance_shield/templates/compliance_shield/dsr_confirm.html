@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Request Submitted</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           background: #F8FAFC; color: #1E293B; padding: 60px 16px;
+           display: flex; align-items: center; justify-content: center; min-height: 80vh; }
+    .card { background: #fff; border: 1px solid #E2E8F0; border-radius: 16px;
+            padding: 40px; max-width: 480px; width: 100%; text-align: center; }
+    .icon { font-size: 2.5rem; margin-bottom: 16px; }
+    h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 8px; }
+    p { font-size: .875rem; color: #64748B; line-height: 1.7; margin-bottom: 16px; }
+    .ref { font-size: 1rem; font-weight: 700; color: #0A2540;
+           background: #F1F5F9; padding: 10px 20px; border-radius: 8px;
+           display: inline-block; margin-bottom: 20px; letter-spacing: 1px; }
+    .btn { display: inline-block; padding: 10px 24px; background: #0A2540;
+           color: #fff; border-radius: 8px; text-decoration: none;
+           font-size: .875rem; font-weight: 600; }
+    .deadline { font-size: .78rem; color: #94A3B8; margin-top: 16px; }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">&#10003;</div>
+  <h2>Request Received</h2>
+  <p>
+    Your <strong>{{ dsr.get_request_type_display }}</strong> request has been
+    submitted successfully. We will respond within the legally required timeframe.
+  </p>
+  <div class="ref">DSR-{{ dsr.pk|stringformat:"06d" }}</div>
+  <p>
+    A confirmation has been sent to your email address. Keep this reference
+    number for your records.
+  </p>
+  <a href="{% url 'compliance_shield:cs_privacy_settings' %}" class="btn">
+    Back to Privacy Settings
+  </a>
+  <p class="deadline">
+    Legal deadline: {{ dsr.deadline_at|date:"d F Y" }}
+    ({{ dsr.deadline_days }} days as required by {{ dsr.jurisdiction }} law)
+  </p>
+</div>
+</body>
+</html>
