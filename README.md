@@ -261,8 +261,10 @@ See [docs/field-types.md](docs/field-types.md) for full reference.
 [GitHub](https://github.com/yogesh-chauhan-ai) |
 [LinkedIn](https://linkedin.com/in/yogesh-python-ai) |
 [Portfolio](https://yogesh-python-ai.github.io)
-
+[![Latest on Django Packages](https://img.shields.io/badge/PyPI-{{ package.slug }}-tags-8c3c26.svg)](https://djangopackages.org/packages/p/django-compliance-shield/)
+                        
 ---
+                       
 
 ## License
 
